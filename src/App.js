@@ -1,7 +1,13 @@
 import React from 'react';
 import './App.css';
+import StatementsContainer from './Containers/StatementsContainer'
+
 function App() {
-  return <h1>You Can Do This!</h1>;
+  return (
+  <>
+    <StatementsContainer />
+  </>
+  )
 }
 
 export default App;
